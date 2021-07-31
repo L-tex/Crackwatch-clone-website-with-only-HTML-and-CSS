@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #27282e;
+}
+
+.progress_bar {
+    width: 100vw;
+    height: 1px;
+    background-color: red;
+    animation: progress_bar_animation 1s normal 1;
+}
+
+@keyframes progress_bar_animation {
+    0% {
+        width: 0vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}
+
+.navbar ul {
+    background-color: #101012;
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 13px 0px;
+}
+
+.navbar ul li {
+    background-color: #101012;
+    color: white;
+    display: flex;
+    padding: 0px 12px;
+    font-size: 13px;
+}
+
+.navbar ul li:hover {
+    background-color: #101012;
+    color: rgb(206, 206, 206);
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.reminder_ul {
+    padding-top: 6px;
+    background-color: #101012;
+    width: 60vw;
+    margin-top: 30px;
+    border-radius: 2px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.reminder_ul li {
+    background-color: #101012;
+}
+
+.crackwatch_logo {
+    width: 38px;
+    background-color: #101012;
+}
+
+.reminder {
+    background-color: #101012;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+}
+
+.see_terms {
+    color: white;
+    margin-top: 3px;
+    padding: 0px 30px 5px 30px;
+    border: 3px solid #101012;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.see_terms:hover {
+    color: rgb(206, 206, 206);
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.live_updates_ul {
+    color: white;
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    list-style: none;
+    padding: 11px 0px;
+}
+
+.hot_games {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.live_updates {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.light {
+    padding-right: 7px;
+    color: lime;
+    font-weight: bold;
+}
+
+.horizontal_line {
+    color: #494a4f;
+    width: 60vw;
+    margin: auto;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.all_boxes {
+    width: 60vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 2px 2px;
+    position: absolute;
+}
+
+.area_cover {
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3px;
+}
+
+.area_side {
+    width: 15vw;
+    height: 20vh;
+    border-radius: 3px;
+}
+
+.box1 {
+    background-color: #161618;
+    grid-row: 1/ span 2;
+}
+
+.box2 {
+    background-color: #161618;
+}
+
+.box3 {
+    background-color: #161618;
+}
+
+.box4 {
+    background-color: #161618;
+}
+
+.box5 {
+    background-color: #161618;
+}
+
+.game_name_cover {
+    background-color: #161618;
+    color: white;
+    position: relative;
+    font-size: 13px;
+    top: 34.8vh;
+    padding: 0vh 0.5vw;
+}
+
+.game_name {
+    background-color: #161618;
+    color: white;
+    position: relative;
+    font-size: 13px;
+    border-top: 3px solid lime;
+    top: 15.6vh;
+    padding: 2px 0px 0px 0.5vw;
+}
+
+.cracked_cover {
+    background-color: #161618;
+    color: lime;
+    position: relative;
+    font-size: 13px;
+    top: 35vh;
+    padding: 0vh 0.5vw;
+}
+
+.cracked {
+    background-color: #161618;
+    color: lime;
+    position: relative;
+    font-size: 13px;
+    top: 15.6vh;
+    padding: 0vh 0.5vw;
+}
+
+.cover_poster {
+    position: absolute;
+    width: 30vw;
+    border-bottom: 2px solid lime;
+}
+
+.side_poster {
+    position: absolute;
+    width: 15vw;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    background-color: #161618;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer p {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1.3vh;
+    background-color: #161618;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.message_icon {
+    position: fixed;
+    bottom: 9vh;
+    right: 2vw;
+}
