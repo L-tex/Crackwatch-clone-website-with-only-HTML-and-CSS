@@ -6,7 +6,7 @@
 }
 
 .progress_bar {
-    width: 100vw;
+    width: 0vw;
     height: 1px;
     background-color: red;
     animation: progress_bar_animation 1s normal 1;
