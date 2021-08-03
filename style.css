@@ -16,6 +16,9 @@
     0% {
         width: 0vw;
     }
+    50% {
+        width: 30vw;
+    }
     100% {
         width: 100vw;
     }
