@@ -9,7 +9,7 @@
     width: 0vw;
     height: 1px;
     background-color: red;
-    animation: progress_bar_animation 1s normal 1;
+    animation: progress_bar_animation 2s normal 1;
 }
 
 @keyframes progress_bar_animation {
